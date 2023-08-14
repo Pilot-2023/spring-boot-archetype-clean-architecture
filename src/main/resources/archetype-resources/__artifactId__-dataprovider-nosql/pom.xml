@@ -1,0 +1,59 @@
+#set($hash = '#')
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <!-- ${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}  -->
+    <!-- ${hash}${hash}${hash}${hash} P A R E N T _ P R O J E C T ${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash} -->
+    <!-- ${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash} -->
+
+    <parent>
+        <groupId>${groupId}</groupId>
+        <artifactId>${artifactId}</artifactId>
+        <version>${version}</version>
+    </parent>
+
+    <!-- ${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}  -->
+    <!-- ${hash}${hash}${hash}${hash} P R O J E C T _ D E S C R I P T I O N ${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash} -->
+    <!-- ${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash} -->
+
+    <artifactId>${artifactId}-dataprovider-nosql</artifactId>
+    <name>${name} :: Data Provider No SQL</name>
+    <description>${name} Data Provider No SQL Module</description>
+
+    <!-- ${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}  -->
+    <!-- ${hash}${hash}${hash}${hash} P R O J E C T _ D E P E N D E N C I E S ${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash} -->
+    <!-- ${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash} -->
+    
+    <dependencies>
+        <!-- internal dependencies -->
+        <dependency>
+            <groupId>${groupId}</groupId>
+            <artifactId>${artifactId}-core</artifactId>
+        </dependency>
+
+        <!-- external dependencies -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-data-mongodb</artifactId>
+            <version>${spring-boot-starter-parent.version}</version>
+        </dependency>
+    </dependencies>
+
+    <!-- ${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}  -->
+    <!-- ${hash}${hash}${hash}${hash} P R O J E C T _ P R O P E R T I E S ${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash} -->
+    <!-- ${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash} -->
+
+    <properties>
+    </properties>
+
+    <!-- ${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}  -->
+    <!-- ${hash}${hash}${hash}${hash} P R O J E C T _ B U I L D ${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash} -->
+    <!-- ${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash} -->
+
+    <build>
+    </build>
+
+</project>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <!-- ######################################################################### -->
+    <!-- #### A R C H E T Y P E _ D E S C R I P T I O N ########################## -->
+    <!-- ######################################################################### -->
+
+    <groupId>com.pilot2023</groupId>
+    <artifactId>spring-boot-archetype-clean-architecture</artifactId>
+    <version>1.0.0-SNAPSHOT</version>
+    <packaging>maven-archetype</packaging>
+    <name>Pilot 2023 The Clean Architecture Maven archetype</name>
+    <description>Maven archetype providing base code and modules following The Clean Architecture for Spring Boot microservices built by Pilot 2023</description>
+
+    <!-- ######################################################################### -->
+    <!-- #### A R C H E T Y P E _ D E P E N D E N C I E S ######################## -->
+    <!-- ######################################################################### -->
+
+    <dependencies>
+    </dependencies>
+
+    <!-- ######################################################################### -->
+    <!-- #### A R C H E T Y P E _ P R O P E R T I E S ############################ -->
+    <!-- ######################################################################### -->
+
+    <properties>
+        <!-- JVM -->
+        <java.version>19</java.version>
+        <maven.compiler.source>${java.version}</maven.compiler.source>
+        <maven.compiler.target>${java.version}</maven.compiler.target>
+
+        <!-- archetype -->
+        <archetype-packaging.version>3.2.1</archetype-packaging.version>
+    </properties>
+
+    <!-- ######################################################################### -->
+    <!-- #### A R C H E T Y P E _ B U I L D ###################################### -->
+    <!-- ######################################################################### -->
+
+    <build>
+        <extensions>
+            <extension>
+                <groupId>org.apache.maven.archetype</groupId>
+                <artifactId>archetype-packaging</artifactId>
+                <version>${archetype-packaging.version}</version>
+            </extension>
+        </extensions>
+    </build>
+
+</project>

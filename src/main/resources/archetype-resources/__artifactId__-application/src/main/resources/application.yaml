@@ -1,0 +1,32 @@
+${hash} ${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash} Microservice base configuration
+spring.application:
+  name: ${artifactId}
+  version: ${version}
+
+server:
+  port: 8080
+  ssl.enabled: false # disable https
+  servlet.context-path: /${spring.application.name}
+
+logging.level:
+  root: INFO
+  org.springframework: INFO
+  ${package}: INFO
+
+springdoc:
+  swagger-ui:
+    path: /
+
+${hash} ${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash} No SQL configuration
+spring.data.mongodb.uri: mongodb+srv://${MONGODB_USER}:${MONGODB_PWD}@${MONGODB_HOST}/${MONGODB_DB_NAME}
+
+${hash} ${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash} SQL configuration
+spring.jpa:
+  hibernate.ddl-auto: update
+  show-sql: false
+  database-platform: org.hibernate.dialect.PostgreSQL10Dialect
+
+spring.datasource:
+  url: jdbc:postgresql://${POSTGRES_HOST}:${POSTGRES_PORT}/${className}DB
+  username: ${POSTGRES_USERNAME}
+  password: ${POSTGRES_PASSWORD}

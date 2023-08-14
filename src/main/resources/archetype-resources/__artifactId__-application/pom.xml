@@ -1,0 +1,92 @@
+#set($hash = '#')
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <!-- ${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}  -->
+    <!-- ${hash}${hash}${hash}${hash} P A R E N T _ P R O J E C T ${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash} -->
+    <!-- ${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash} -->
+
+    <parent>
+        <groupId>${groupId}</groupId>
+        <artifactId>${artifactId}</artifactId>
+        <version>${version}</version>
+    </parent>
+
+    <!-- ${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}  -->
+    <!-- ${hash}${hash}${hash}${hash} P R O J E C T _ D E S C R I P T I O N ${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash} -->
+    <!-- ${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash} -->
+
+    <artifactId>${artifactId}-application</artifactId>
+    <name>${name} :: Application</name>
+    <description>${name} Application Module</description>
+
+    <!-- ${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}  -->
+    <!-- ${hash}${hash}${hash}${hash} P R O J E C T _ D E P E N D E N C I E S ${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash} -->
+    <!-- ${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash} -->
+    
+    <dependencies>
+        <dependency>
+            <groupId>${groupId}</groupId>
+            <artifactId>${artifactId}-core</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>${groupId}</groupId>
+            <artifactId>${artifactId}-entrypoint-rest</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>${groupId}</groupId>
+            <artifactId>${artifactId}-dataprovider-nosql</artifactId>
+        </dependency>
+    </dependencies>
+
+    <!-- ${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}  -->
+    <!-- ${hash}${hash}${hash}${hash} P R O J E C T _ P R O P E R T I E S ${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash} -->
+    <!-- ${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash} -->
+
+    <properties>
+        <start-class>${package}.${className}Application</start-class>
+    </properties>
+
+    <!-- ${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}  -->
+    <!-- ${hash}${hash}${hash}${hash} P R O J E C T _ B U I L D ${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash} -->
+    <!-- ${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash} -->
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>${maven-compiler-plugin.version}</version>
+                <configuration>
+                    <source>${java.version}</source>
+                    <target>${java.version}</target>
+                    <annotationProcessorPaths>
+                        <path>
+                            <groupId>org.projectlombok</groupId>
+                            <artifactId>lombok</artifactId>
+                            <version>${lombok.version}</version>
+                        </path>
+                        <path>
+                            <groupId>org.projectlombok</groupId>
+                            <artifactId>lombok-mapstruct-binding</artifactId>
+                            <version>${lombok-mapstruct-binding.version}</version>
+                        </path>
+                        <path>
+                            <groupId>org.mapstruct</groupId>
+                            <artifactId>mapstruct-processor</artifactId>
+                            <version>${mapstruct.version}</version>
+                        </path>
+                    </annotationProcessorPaths>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+
+</project>

@@ -1,0 +1,13 @@
+${hash} ${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash} Microservice base configuration
+server.port: 8080
+
+${hash} ${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash} No SQL configuration
+spring.data.mongodb.uri: mongodb://localhost:27017/${className}DB
+
+${hash} ${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash}${hash} SQL configuration
+spring.jpa.show-sql: true
+
+spring.datasource:
+  url: jdbc:postgresql://localhost:5432/${className}DB
+  username: postgres
+  password: postgres
