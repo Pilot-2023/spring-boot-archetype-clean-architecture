@@ -3,11 +3,12 @@ package ${package}.mapper;
 import org.mapstruct.Mapper;
 import org.mapstruct.Mapping;
 import org.mapstruct.MappingTarget;
+import org.mapstruct.NullValuePropertyMappingStrategy;
 
 import ${package}.document.${domain}Document;
 import ${package}.domain.${domain};
 
-@Mapper(componentModel = "spring")
+@Mapper(componentModel = "spring", nullValuePropertyMappingStrategy = NullValuePropertyMappingStrategy.IGNORE)
 public interface ${domain}MapperDataProviderNoSql {
 
     ${domain} to${domain}(${domain}Document document);

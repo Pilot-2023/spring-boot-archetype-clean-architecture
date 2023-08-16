@@ -10,7 +10,7 @@ import ${package}.domain.${domain};
 
 @RequiredArgsConstructor
 @Service
-public class ${domain}UseCaseRead {
+public class ${domain}UseCaseGet {
 
     private final ${domain}DataProviderPersistence dataProvider;
 

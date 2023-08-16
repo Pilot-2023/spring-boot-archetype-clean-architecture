@@ -26,7 +26,7 @@ public class ${domain}DataProviderNoSql implements ${domain}DataProviderPersiste
 
     @Override
     public ${domain} create(${domain}  ${domain.toLowerCase()}) {
-        ${domain}Document document = mapper.to${domain}Document( ${domain.toLowerCase()});
+        ${domain}Document document = mapper.to${domain}Document(${domain.toLowerCase()});
         // if the ID is not given, generate a random one
         if (!StringUtils.hasText(document.getId())) {
             document.setId(UUID.randomUUID().toString());

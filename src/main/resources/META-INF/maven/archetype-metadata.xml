@@ -13,7 +13,7 @@
             <defaultValue>1.0.0-SNAPSHOT</defaultValue>
         </requiredProperty>
         <requiredProperty key="name">
-            <defaultValue>TODO: add name here</defaultValue>
+            <defaultValue>${domain}</defaultValue>
         </requiredProperty>
         <requiredProperty key="domain">
             <defaultValue>Demo</defaultValue>
@@ -24,9 +24,10 @@
     </requiredProperties>
 
     <fileSets>
-        <fileSet encoding="UTF-8">
+        <fileSet filtered="true" encoding="UTF-8">
             <directory/>
             <includes>
+                <include>**/docker-compose.y*ml</include>
                 <include>**/*.run.xml</include>
                 <include>**/*.postman_collection.*</include>
                 <include>.gitignore</include>

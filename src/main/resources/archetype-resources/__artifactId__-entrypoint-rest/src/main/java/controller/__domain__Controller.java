@@ -10,7 +10,7 @@ import ${package}.api.${domain}Api;
 import ${package}.domain.${domain};
 import ${package}.usecases.${domain}UseCaseCreate;
 import ${package}.usecases.${domain}UseCaseDelete;
-import ${package}.usecases.${domain}UseCaseRead;
+import ${package}.usecases.${domain}UseCaseGet;
 import ${package}.usecases.${domain}UseCaseUpdate;
 
 @Slf4j
@@ -19,7 +19,7 @@ import ${package}.usecases.${domain}UseCaseUpdate;
 public class ${domain}Controller implements ${domain}Api {
 
     private final ${domain}UseCaseCreate createUseCase;
-    private final ${domain}UseCaseRead readUseCase;
+    private final ${domain}UseCaseGet getUseCase;
     private final ${domain}UseCaseUpdate updateUseCase;
     private final ${domain}UseCaseDelete deleteUseCase;
 
@@ -34,10 +34,10 @@ public class ${domain}Controller implements ${domain}Api {
 
     public ResponseEntity<${domain}> get${domain}(String id) {
         log.info("getting ${domain.toLowerCase()} {}", id);
-        ${domain}UseCaseRead.Input input = ${domain}UseCaseRead.Input.builder()
+        ${domain}UseCaseGet.Input input = ${domain}UseCaseGet.Input.builder()
             .id(id)
             .build();
-        ${domain}UseCaseRead.Output output = readUseCase.execute(input);
+        ${domain}UseCaseGet.Output output = getUseCase.execute(input);
         return new ResponseEntity<>(output.get${domain}(), HttpStatus.OK);
     }
 
